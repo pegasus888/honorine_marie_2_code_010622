@@ -1,0 +1,57 @@
+    @media  (min-width: 730px) {
+
+        /* Header */
+    .header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    }
+
+    .header {
+    background-image: url("../images/logo.webp");
+    background-repeat: no-repeat;
+    background-position: 25px 25px;
+    }
+
+    .navbar {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    }
+
+    .navbar ul {
+    display: flex;
+    margin: 0px;
+    }
+
+    .navbar ul li {
+    border-top: 2px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 35px;
+    }
+
+    .menu1 li:hover {
+    border-color: var(--primary-color);
+    }
+
+    .menu1 li:hover a {
+    color: var(--primary-color);
+    }
+
+    .signup {
+    color: var(--primary-color);
+    margin-left: -20px;
+    }
+
+    .films {
+    padding-top: 30px;
+    }
+
+    .actualities {
+    padding-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    }
+    }
