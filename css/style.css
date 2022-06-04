@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700;800;900&display=swap');
 
-
-.content2 p {
-   margin-right: 200px;
-   margin-left: 200px;
-}
-
+ /* Content3 */
 .content3 img {
    max-width: 20%;
+   margin-left: 0px;
 }
 
+main {
+   display: flex;
+   flex-wrap: wrap;
+   margin: auto;
+}
 
-   /* Footer */
+/* Footer */
       .content5 {
       padding-block: 1em;
       padding-inline: 1.5em;

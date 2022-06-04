@@ -1,8 +1,5 @@
-@media  (min-width: 730px) {
+@media  (max-width: 730px) {
         /* Content3 */
-        .content3 img {
-            margin-left: 0px;
-}
 }
 
 @media  (min-width: 730px) {
@@ -60,6 +57,22 @@
     .actualities {
     padding-top: 30px;
     margin-right: 20px;
+    margin-left: 20px;
+    }
+
+ /* Content2 */
+    .content2 p {
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.content2 h2 {
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+    /* Content3 */
+    main {
     margin-left: 20px;
     }
     }
