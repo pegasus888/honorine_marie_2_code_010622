@@ -1,5 +1,13 @@
 @media  (max-width: 730px) {
-        /* Content3 */
+        /* Header */
+    .header {
+    background-size: 150px auto;
+    }
+
+    /* Content3 */
+    main {
+    margin-left: 30px;
+    }
 }
 
 @media  (min-width: 730px) {
@@ -9,20 +17,20 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-bottom: 110px;
+    padding-bottom: 30px;
     }
 
     .header {
     background-image: url("../images/logo.webp");
     background-repeat: no-repeat;
     background-position: 25px 25px;
+    background-size: 215px auto;
     }
 
     .navbar {
     display: flex;
     width: 100%;
     justify-content: flex-end;
-    margin-top: 60px;
     }
 
     .navbar ul {
@@ -30,12 +38,14 @@
     margin: 0px;
     }
 
+
     .navbar ul li {
     border-top: 2px solid white;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 35px;
     }
+
 
     .menu1 li:hover {
     border-color: var(--primary-color);

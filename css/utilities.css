@@ -36,10 +36,14 @@
 
     .content2,
     .content3,
-    .content4,
     .content5,
     form {
     padding-block: 1rem;
+    padding-inline: 1.5rem;
+    margin-block-end: 2rem;
+    }
+
+    .content4 {
     padding-inline: 1.5rem;
     margin-block-end: 2rem;
     }
