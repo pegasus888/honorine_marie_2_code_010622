@@ -2,6 +2,11 @@
         /* Header */
     .header {
     background-size: 150px auto;
+    margin-left: 20px;
+    }
+
+    ul {
+    margin-left: 20px;
     }
 
     /* Content3 */
@@ -17,14 +22,14 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-bottom: 30px;
+    padding-bottom: 45px;
     }
 
     .header {
     background-image: url("../images/logo.webp");
     background-repeat: no-repeat;
     background-position: 25px 25px;
-    background-size: 215px auto;
+    background-size: 350px auto;
     }
 
     .navbar {

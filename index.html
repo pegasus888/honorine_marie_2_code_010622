@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="icon" type="image/x-icon" href="/images/intro.webp">
 </head>
 
 <body>
@@ -22,13 +23,13 @@
         <header class="header">
             <nav class="navbar">
                 <ul class="menu1">
-                <li><a href="#festival" class="festival">Le Festival</a></li>
-                <li><a href="#films" class="films">Programme</a></li>
-                <li><a href="#actualités" class="actualities">Actualités</a></li>
-                <li><a href="#logo" class="logo" class="logoPic"></a></li>
+                <li><a href="#content2Intro" class="festival">Le Festival</a></li>
+                <li><a href="#content3Program" class="films">Programme</a></li>
+                <li><a href="#content4Actualities" class="actualities">Actualités</a></li>
+                <li><a href="#logo" class="logoPic"></a></li>
                 </ul>
                 <ul class="menu2">
-                <li><a href="#" class="signup"><strong>Réservations</strong></a></li>
+                <li><a href="#mainBooking" class="signup"><strong>Réservations</strong></a></li>
                 </ul>
             </nav>
         </header>
@@ -37,8 +38,9 @@
 
     <!--Content2: Intro-->
     <div class="content2">
-        <img src="images/intro1.webp" alt="" class="introPic">
-        <h2 class="introSubtitle">Au Parc Monceau à Paris</h2>
+        <a href="#mainBooking">
+        <img src="images/intro1.webp" alt="" class="introPic"></a>
+        <h2 class="introSubtitle" id="content2Intro">Au Parc Monceau à Paris</h2>
         <p class="dates">Du 05 août au 08 août</p>
         <p class="description">Description du festival</p>
     </div><!--./Content2: Intro-->
@@ -46,54 +48,57 @@
     <!--Content3: Films-->
 
     <div class="content3">
-        <h1 class="films">PROGRAMMATION</h1>
+        <h1 class="films" id="content3Program">PROGRAMMATION</h1>
 
-        <main class="main">
+        <main class="main" id="mainBooking">
             <section class="section1">
                 <div class="film1">
                     <!--FilmCard1-->
                     <div class="filmCard1">
-                    <a href="#">
-                        <h3 class="filmTitle1">Film 1</h3>
-                        <img src="images/pic1.webp" alt="" class="movie1">
-                            <p class="filmDescription1">Résumé<strong class="filmDuration1"> Durée</strong> Réservations</p>
-                            <div class="filmDirector1">
-                            </div>
-                    </a>
+                        <a href="#">
+                            <h3 class="filmTitle1">Film 1</h3>
+                            <img src="images/pic1.webp" alt="" class="movie1">
+                                <p class="filmDescription1">Résumé Durée <strong class="booking1">Réservations</strong></p>
+                                <div class="filmDirector1">
+                                </div>
+                        </a>
                     </div>
+                </div><!--film1-->
 
                 <div class="film2">
                     <!--FilmCard2-->
                     <div class="filmCard1">
-                    <a href="#">
-                        <h3 class="filmTitle1">Film 2</h3>
-                        <img src="images/pic2.webp" alt="" class="movie2">
-                            <p class="filmDescription2">Résumé<strong class="filmDuration1"> Durée</strong> Réservations</p>
-                            <div class="filmDirector1">
-                            </div>
-                    </a>
+                        <a href="#">
+                            <h3 class="filmTitle2">Film 2</h3>
+                            <img src="images/pic2.webp" alt="" class="movie2">
+                                <p class="filmDescription2">Résumé Durée <strong class="booking2">Réservations</strong></p>
+                                <div class="filmDirector2">
+                                </div>
+                        </a>
                     </div>
+                </div><!--film2-->
 
                 <div class="film3">
                     <!--FilmCard3-->
                     <div class="filmCard1">
-                    <a href="#">
-                        <h3 class="filmTitle1">Film 3</h3>
-                        <img src="images/pic3.webp" alt="" class="movie1">
-                            <p class="filmDescription1">Résumé<strong class="filmDuration1"> Durée</strong> Réservations</p>
-                            <div class="filmDirector1">
-                            </div>
-                    </a>
+                        <a href="#">
+                            <h3 class="filmTitle3">Film 3</h3>
+                            <img src="images/pic3.webp" alt="" class="movie1">
+                                <p class="filmDescription3">Résumé Durée <strong class="booking3">Réservations</strong></p>
+                                <div class="filmDirector3">
+                                </div>
+                        </a>
                     </div>
+                </div><!--film3-->
 
                 <div class="film4">
                     <!--FilmCard4-->
                     <div class="filmCard1">
                     <a href="#">
-                        <h3 class="filmTitle1">Film 4</h3>
-                        <img src="images/pic4.webp" alt="" class="movie1">
-                            <p class="filmDescription1">Résumé<strong class="filmDuration1"> Durée</strong> Réservations</p>
-                            <div class="filmDirector1">
+                        <h3 class="filmTitle4">Film 4</h3>
+                        <img src="images/pic4.webp" alt="" class="movie4">
+                            <p class="filmDescription4">Résumé Durée <strong class="booking4">Réservations</strong></p>
+                            <div class="filmDirector4">
                             </div>
                     </a>
                     </div>
@@ -104,10 +109,10 @@
                     <!--FilmCard5-->
                     <div class="filmCard1">
                     <a href="#">
-                        <h3 class="filmTitle1">Film 5</h3>
-                        <img src="images/pic5.webp" alt="" class="movie1">
-                            <p class="filmDescription1">Résumé<strong class="filmDuration1"> Durée</strong> Réservations</p>
-                            <div class="filmDirector1">
+                        <h3 class="filmTitle5">Film 5</h3>
+                        <img src="images/pic5.webp" alt="" class="movie5">
+                            <p class="filmDescription5">Résumé Durée <strong class="booking5">Réservations</strong></p>
+                            <div class="filmDirector5">
                             </div>
                     </a>
                     </div>
@@ -116,10 +121,10 @@
                     <!--FilmCard6-->
                     <div class="filmCard1">
                     <a href="#">
-                        <h3 class="filmTitle1">Film 6</h3>
-                        <img src="images/pic6.webp" alt="" class="movie1">
-                            <p class="filmDescription1">Résumé<strong class="filmDuration1"> Durée</strong> Réservations</p>
-                            <div class="filmDirector1">
+                        <h3 class="filmTitle6">Film 6</h3>
+                        <img src="images/pic6.webp" alt="" class="movie6">
+                            <p class="filmDescription6">Résumé Durée <strong class="booking2">Réservations</strong></p>
+                            <div class="filmDirector6">
                             </div>
                     </a>
                     </div>
@@ -128,10 +133,10 @@
                     <!--FilmCard7-->
                     <div class="filmCard1">
                     <a href="#">
-                        <h3 class="filmTitle1">Film 7</h3>
+                        <h3 class="filmTitle7">Film 7</h3>
                         <img src="images/pic7.webp" alt="" class="movie1">
-                            <p class="filmDescription1">Résumé<strong class="filmDuration1"> Durée</strong> Réservations</p>
-                            <div class="filmDirector1">
+                            <p class="filmDescription7">Résumé Durée <strong class="booking7">Réservations</strong></p>
+                            <div class="filmDirector7">
                             </div>
                     </a>
                     </div>
@@ -140,10 +145,10 @@
                     <!--FilmCard8-->
                     <div class="filmCard1">
                     <a href="#">
-                        <h3 class="filmTitle1">Film 8</h3>
-                        <img src="images/pic8.webp" alt="" class="movie1">
-                            <p class="filmDescription1">Résumé<strong class="filmDuration1"> Durée</strong> Réservations</p>
-                            <div class="filmDirector1">
+                        <h3 class="filmTitle8">Film 8</h3>
+                        <img src="images/pic8.webp" alt="" class="movie8">
+                            <p class="filmDescription8">Résumé Durée <strong class="booking8">Réservations</strong></p>
+                            <div class="filmDirector8">
                             </div>
                     </a>
                     </div>
@@ -155,7 +160,7 @@
 
     <!--Content4: Actualités-->
     <div class="content4">
-    <h2 class="actualities">Actualités</h2>
+    <h2 class="actualities" id="content4Actualities">Actualités</h2>
     <p class="actualitiesDescription">Actualités description</p>
 
     </div><!--./Content4: Actualités-->
@@ -170,16 +175,17 @@
         <div class="about">
             <h4 class="abouTitle">À propos</h4>
             <ul>
-            <li><a href="#">Festival du Parc Monceau</a></li>
+            <li><a href="#mainBooking">Festival du Parc Monceau</a></li>
             </ul>
         </div><!--./À propos-->
 
         <!--Assistance-->
         <div class="assistance">
             <h4 class="assistanceTitle">Nous contacter</h4>
-            <ul>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
+            <ul class="icons">
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
             </ul>
         </div><!--./Assistance-->
         </footer>
